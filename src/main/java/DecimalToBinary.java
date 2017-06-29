@@ -14,7 +14,7 @@ public class DecimalToBinary {
         while(a >= 1){
             if(a == 1){
                 s.append(a);
-                a = a / 2;
+                a = a / 2 ;
             }else{
                 int r= a%2;
                 s.append(r);
