@@ -26,6 +26,8 @@ public class DecimalToBinary {
 
     public static void main(String Args[]){
         new DecimalToBinary().findDigitsInBinary(0)   ;
-        println("hii")
+        println("hi")
+        println("merge conflict2")
+
     }
 }
