@@ -16,7 +16,7 @@ public class ArrangeArray {
              int old = otherValue % length;
              int ne = otherValue / length;
              a.remove(i);
-             a.add(i,currValue + old*length);
+             a.add(i,currValue + old*length) ;
              i++;
          }
         i=0;
