@@ -25,6 +25,6 @@ public class DecimalToBinary {
     }
 
     public static void main(String Args[]){
-        new DecimalToBinary().findDigitsInBinary(0);
+        new DecimalToBinary().findDigitsInBinary(0)   ;
     }
 }
