@@ -17,7 +17,7 @@
     </repositories>
     <dependencies>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.10</artifactId>
             <version>1.6.0</version>
@@ -47,7 +47,7 @@
             <version>5.1.6</version>
             <scope>provided</scope>
         </dependency>
-        <!-- Scala -->
+
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
@@ -63,7 +63,8 @@
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
-        <!-- END Scala -->
+
+    -->
     </dependencies>
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>

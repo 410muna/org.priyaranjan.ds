@@ -1,13 +1,11 @@
 package treeJava;
 
-/**
- * Created by PSwain on 6/12/2017.
- */
 public class preOrder {
     public void preOrder(Node node){
 
         if(node == null ){
             return;
+
         }
         preOrder(node.left);
         preOrder(node.right);

@@ -14,6 +14,7 @@ class Node {
     Node(int data) {
 
         this.data = data;
+        left =  right = null;
     }
     public String toString() {
 
@@ -119,7 +120,7 @@ public class BinaryTree {
 
             // Visit the currently focused on node
 
-            System.out.println(focusNode);
+            System.out.print(focusNode.data + " ");
 
             // Traverse the right node
 
